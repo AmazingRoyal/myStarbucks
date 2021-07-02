@@ -14,9 +14,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.card-history {
-}
-
 .card-title {
     font-size: 24px;
     font-weight: bold;
@@ -96,4 +93,45 @@
 .card-secondary-btn {
     display: flex;
     justify-content: center;
+}
+
+.history-section {
+    padding: 22px;
+}
+
+.history-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #21956b;
+    padding: 0px;
+    margin-bottom: 12px;
+}
+
+.history {
+    margin-bottom: 24px;
+}
+
+.history-id {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.history-points {
+    color: #21956b;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.history-tanggal {
+    color: gray;
+    font-size: 11px;
+}
+
+.history-harga {
+    color: gray;
+    font-size: 11px;
+    text-align: right;
+    font-weight: bold;
 }

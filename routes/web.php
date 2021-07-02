@@ -54,4 +54,5 @@ Route::group([
     'middleware' => ['auth', 'admin']
 ], function () {
     Route::get('/', [App\Http\Controllers\Admin\HomeController::class, 'index'])->name('home');
+    // Route::resource('/input', [App\Http\Controllers\Admin\TransaksiController::class, 'index'])->name('index');
 });

@@ -5,7 +5,7 @@
 
     <!-- SideNav -->
     <div class="sidenav">
-        <a href="" id="sidenav-active"><i class="fas fa-th-large me-2"></i> Dashboard</a>
+        <a href="{{route('admin.home')}}" id="sidenav-active"><i class="fas fa-th-large me-2"></i> Dashboard</a>
         <a href=""><i class="fas fa-box me-2"></i> Input Transaksi</a>
         <a href=""><i class="fas fa-box me-2"></i> History</a>
     </div>

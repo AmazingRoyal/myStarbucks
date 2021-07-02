@@ -1,0 +1,59 @@
+.header-nama {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.header-harga {
+    font-weight: bold;
+    font-size: 30px;
+    color: #21956b;
+}
+
+.header-deskripsi {
+}
+
+.header-menu {
+    height: 400px;
+    text-align: center;
+}
+
+.menu-container {
+    margin-top: 164px;
+}
+
+.card {
+    margin-top: 24px;
+}
+
+.card-img-top {
+    width: 164px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+}
+
+.card-menu {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 0px;
+}
+
+.card-harga {
+    font-size: 18px;
+    font-weight: bold;
+    color: #21956b;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.home-menu {
+    display: flex;
+    justify-content: center;
+}

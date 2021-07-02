@@ -1,0 +1,120 @@
+:root {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff9f4;
+}
+
+.logo-navbar {
+    width: 32px;
+    margin-right: 12px;
+}
+
+.brand-sp {
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #ffff;
+    background-color: #21956b;
+    border-width: 1.5px;
+    border-color: #21956b;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 4px 32px 4px 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn-secondary {
+    color: #21956b;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border-width: 1.5px;
+    border-color: #21956b;
+    font-size: 16px;
+    padding: 4px 32px 4px 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn-large {
+    color: white;
+    background-color: #21956b;
+    border-radius: 50px;
+    border-color: #21956b;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}
+
+.btn-large-2 {
+    color: white;
+    background-color: #21956b;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}
+
+.btn-large-secondary {
+    color: #21956b;
+    background-color: white;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}
+
+.btn-large-secondary-2 {
+    color: #21956b;
+    background-color: white;
+    border-radius: 50px;
+    border-color: #21956b;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}
+
+.btn-primary:hover {
+    color: #21956b;
+    background-color: white;
+    border-color: #21956b;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #21956b;
+    border-color: white;
+}
+
+.btn-large:hover,
+.btn-large-2:hover {
+    color: #21956b;
+    background-color: white;
+    border-radius: 50px;
+    border-color: #21956b;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}
+
+.btn-large-secondary:hover,
+.btn-large-secondary-2:hover {
+    color: white;
+    background-color: #21956b;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 8px 68px 8px 68px;
+    font-weight: normal;
+}

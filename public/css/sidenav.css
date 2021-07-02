@@ -1,0 +1,45 @@
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    padding-top: 80px;
+    top: 0;
+    left: 0;
+    background-color: #21956b;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    margin: 12px 0px 12px 20px;
+    padding: 8px 0px 8px 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #21956b;
+    background-color: #fff9f4;
+    font-weight: bold;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#sidenav-active {
+    color: #21956b;
+    background-color: #fff9f4;
+    font-weight: bold;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.main {
+    margin-left: 220px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.rotate-2 {
+    transform: rotate(-90deg);
+}

@@ -29,7 +29,7 @@
                             <div class="card-body">
                                 <p class="card-menu">Strawberries Frappuccino</p>
                                 <p class="card-text">Blended Cream</p>
-                                <p class="card-harga">Rp 57.000</p>
+                                <p class="card-harga">Rp 52.000</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             <div class="card-body">
                                 <p class="card-menu">Vanilla Frappuccino</p>
                                 <p class="card-text">Blended Cream</p>
-                                <p class="card-harga">Rp 48.000</p>
+                                <p class="card-harga">Rp 50.000</p>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,9 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-5.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Caramel Frappucino</p>
+                                <p class="card-menu">Caramel Frappuccino</p>
                                 <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 52.000</p>
+                                <p class="card-harga">Rp 55.000</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <div class="card-body">
                                 <p class="card-menu">Iced Caffe Mocha</p>
                                 <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 55.000</p>
+                                <p class="card-harga">Rp 52.000</p>
                             </div>
                         </div>
                     </div>

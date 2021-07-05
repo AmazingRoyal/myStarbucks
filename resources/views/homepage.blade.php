@@ -59,7 +59,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-4.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Iced Caramel Macchiato</p>
+                                <p class="card-menu">Caramel Macchiato</p>
                                 <p class="card-text">Brewed Coffee</p>
                                 <p class="card-harga">Rp 57.000</p>
                             </div>
@@ -79,7 +79,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-6.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Iced Caffe Mocha</p>
+                                <p class="card-menu">Caffe Mocha</p>
                                 <p class="card-text">Blended Coffee</p>
                                 <p class="card-harga">Rp 52.000</p>
                             </div>

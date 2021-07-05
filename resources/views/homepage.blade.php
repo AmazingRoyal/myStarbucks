@@ -6,8 +6,8 @@
     <div class="container main-content">
         <div class="row align-items-center">
             <div class="col">
-                <h1 class="header-nama">Mocha Frrappuchino</h1>
-                <h2 class="header-harga">Rp 47.000</h2>
+                <h1 class="header-nama">Mocha Frappuccino</h1>
+                <h2 class="header-harga">Rp 59.000</h2>
                 <p class="header-deskripsi">
                     For serious chocolate lovers: We blend dark cocoa with milk,
                     ice and coffee for an extraordinarily chocolatey experience

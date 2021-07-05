@@ -25,31 +25,31 @@
                 <div class="row">
                     <div class="col home-menu">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ asset('/menu-1.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('/menu-7.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Mocha Frappuccino</p>
-                                <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 59.000</p>
+                                <p class="card-menu">Strawberries & Creme Frappuccino</p>
+                                <p class="card-text">Blended Cream</p>
+                                <p class="card-harga">Rp 55.000</p>
                             </div>
                         </div>
                     </div>
                     <div class="col home-menu">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ asset('/menu-2.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('/menu-8.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Squeezed Orange Juice</p>
-                                <p class="card-text">Iced Beverages</p>
-                                <p class="card-harga">Rp 42.000</p>
+                                <p class="card-menu">Green Tea Frappuccino</p>
+                                <p class="card-text">Blended Cream</p>
+                                <p class="card-harga">Rp 55.000</p>
                             </div>
                         </div>
                     </div>
                     <div class="col home-menu">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ asset('/menu-3.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('/menu-9.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Raspberry Mojito</p>
-                                <p class="card-text">Iced Beverages</p>
-                                <p class="card-harga">Rp 45.000</p>
+                                <p class="card-menu">Vanilla Frappuccino</p>
+                                <p class="card-text">Blended Cream</p>
+                                <p class="card-harga">Rp 52.000</p>
                             </div>
                         </div>
                     </div>

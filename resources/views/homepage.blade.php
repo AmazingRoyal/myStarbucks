@@ -27,9 +27,9 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-1.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Mocha Frrappuchino</p>
+                                <p class="card-menu">Mocha Frappuccino</p>
                                 <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 47.000</p>
+                                <p class="card-harga">Rp 59.000</p>
                             </div>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-2.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Mocha Frrappuchino</p>
-                                <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 47.000</p>
+                                <p class="card-menu">Freshly Squeezed Orange Juice</p>
+                                <p class="card-text">Iced Beverages</p>
+                                <p class="card-harga">Rp 42.000</p>
                             </div>
                         </div>
                     </div>
@@ -47,9 +47,9 @@
                         <div class="card" style="width: 18rem;">
                             <img src="{{ asset('/menu-3.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-menu">Mocha Frrappuchino</p>
-                                <p class="card-text">Blended Coffee</p>
-                                <p class="card-harga">Rp 47.000</p>
+                                <p class="card-menu">Raspberry Mojito</p>
+                                <p class="card-text">Iced Beverages</p>
+                                <p class="card-harga">Rp 45.000</p>
                             </div>
                         </div>
                     </div>

@@ -10,6 +10,12 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
+    protected $table = 'users';
+
+    public function transaski()
+    {
+        return $this->hasOne(Transaksi::class);
+    }
 
     /**
      * The attributes that are mass assignable.
@@ -21,7 +27,8 @@ class User extends Authenticatable
         'email',
         'password',
         'is_admin',
-        'alamat'
+        'alamat',
+        'poin_total'
     ];
 
     /**

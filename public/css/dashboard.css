@@ -1,0 +1,27 @@
+.dashboard-content {
+    margin: 72px 32px 32px 46px;
+}
+
+.dashboard-card {
+    margin-inline: 32px;
+    border: 0px;
+    border-radius: 16px;
+}
+
+.card-text {
+    margin: 0px;
+}
+
+.highlight-icon {
+    color: #21956b;
+    font-size: 28px;
+    align-self: center;
+    margin-inline: 18px;
+}
+
+.card-highlight {
+    color: #21956b;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+}

@@ -20,10 +20,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/master.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/42af0935c7.js" crossorigin="anonymous"></script>
+    @livewireStyles
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
             <div class="container">
                 <img src="{{ asset('/logo.png') }}" 
                     alt="Logo" 
@@ -89,5 +90,6 @@
             @yield('content')
         </main>
     </div>
+    @livewireScripts
 </body>
 </html>

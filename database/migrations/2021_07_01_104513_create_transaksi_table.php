@@ -20,6 +20,7 @@ class CreateTransaksiTable extends Migration
             $table->unsignedBigInteger('id_user');
             $table->foreign('id_user')->references('id')->on('users');
             $table->integer('poin');
+            $table->integer('harga');
             $table->timestamps();
         });
     }

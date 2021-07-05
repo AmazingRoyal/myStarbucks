@@ -4,7 +4,7 @@
 <link href="{{ asset('css/profile.css') }}" rel="stylesheet"/>
 
 <div class="container">
-    <div class="row">
+    <div class="row profile-content">
         <div class="col">
             <div class="card card-primary">
                 <div class="card-body">
@@ -42,26 +42,18 @@
         <div class="col">
             <div class="history-section">
                 <h1 class="history-title">Transaction History</h1>
-                <div class="history">
-                    <div class="row">
-                        <div class="col history-id">TID 220418</div>
-                        <div class="col history-points">+ Points 84</div>
+                @foreach ($transaksi as $key => $data)                        
+                    <div class="history">
+                        <div class="row">
+                            <div class="col history-id">TID {{$data->id}}</div>
+                            <div class="col history-points">+ Points {{$data->poin}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col history-tanggal">{{substr($data->created_at, 0, 10)}}</div>
+                            <div class="col history-harga">Rp. {{$data->harga}}</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col history-tanggal">20/06/2021</div>
-                        <div class="col history-harga">Rp. 87500</div>
-                    </div>
-                </div>
-                <div class="history">
-                    <div class="row">
-                        <div class="col history-id">TID 220418</div>
-                        <div class="col history-points">+ Points 84</div>
-                    </div>
-                    <div class="row">
-                        <div class="col history-tanggal">20/06/2021</div>
-                        <div class="col history-harga">Rp. 87500</div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

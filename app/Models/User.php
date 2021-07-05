@@ -27,7 +27,8 @@ class User extends Authenticatable
         'email',
         'password',
         'is_admin',
-        'alamat'
+        'alamat',
+        'poin_total'
     ];
 
     /**

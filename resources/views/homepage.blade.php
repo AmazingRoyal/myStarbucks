@@ -3,7 +3,7 @@
 @section('content')
 <link href="{{ asset('/css/homepage.css') }}" rel="stylesheet">
 
-    <div class="container">
+    <div class="container main-content">
         <div class="row align-items-center">
             <div class="col">
                 <h1 class="header-nama">Mocha Frrappuchino</h1>

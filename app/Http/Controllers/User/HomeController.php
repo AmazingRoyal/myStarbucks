@@ -14,10 +14,9 @@ class HomeController extends Controller
     {
         $id = Auth::id();
         $transaksi = Transaksi::where('id_user', $id)->get();
-
         $poin_total = User::where('id', $id)->select('poin_total')->first();
         $name = User::find($id);
-        // dd($name->name);
+        // dd($transaksi);
         return view('user.profile')->with([
             'id_user'=>$id,
             'transaksi'=>$transaksi,

@@ -1,0 +1,98 @@
+.card {
+    margin: 5% 10% 10% 10%;
+    border-radius: 16px;
+    padding-top: 20px;
+    border: 0px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-head {
+    color: #21956b;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    padding: 0px 25px 15px 25px;
+}
+
+.input-icon {
+    padding: 10px;
+    color: #21956b;
+    background-color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    border: #21956b solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+.form-control {
+    border-radius: 50px;
+    border: #21956b solid;
+    border-width: 1px 1px 1px 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.harga-section {
+    margin-left: 20px;
+}
+
+.rp {
+    color: #21956b;
+    font-size: 32px;
+}
+
+.total-harga {
+    color: #21956b;
+    background-color: white;
+    border-width: 0px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    width: min-content;
+    height: 42px;
+}
+
+.poin {
+    color: #21956b;
+    font-size: 16px;
+}
+
+.total-poin {
+    color: white;
+    font-size: 2px;
+    font-weight: bold;
+    width: min-content;
+    border-width: 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+.poin-copy {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: min-content;
+    border-radius: 12px;
+    background-color: #21956b;
+    padding-inline: 14px;
+    margin-left: 14px;
+}
+
+.desc-section {
+    margin-bottom: 52px;
+}

@@ -1,8 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Transaksi;
+use App\Models\Produk;
 
 class TransaksiController extends Controller
 {
@@ -13,7 +16,10 @@ class TransaksiController extends Controller
      */
     public function index()
     {
-        //
+        $produk = Produk::all();
+        return view('admin.transaksi')->with([
+            'produk'=>$produk,
+        ]);
     }
 
     /**
@@ -34,7 +40,13 @@ class TransaksiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $transaksi = new Transaksi;
+        $transaksi->id_user = $request->id_user;
+        $transaksi->id_produk = $request->id_produk;
+        $transaksi->jumlah = $request->jumlah;
+        $transaksi->dimension = $dimension;
+
+        $transaksi->save();
     }
 
     /**

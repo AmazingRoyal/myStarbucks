@@ -61,7 +61,7 @@
                             <div class="card-body">
                                 <p class="card-menu">Iced Caramel Macchiato</p>
                                 <p class="card-text">Brewed Coffee</p>
-                                <p class="card-harga">Rp 59.000</p>
+                                <p class="card-harga">Rp 57.000</p>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,6 @@
 }
 
 .dashboard-card {
-    margin-inline: 32px;
     border: 0px;
     border-radius: 16px;
 }
@@ -21,7 +20,19 @@
 
 .card-highlight {
     color: #21956b;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     margin: 0px;
+}
+
+.dashboard-title {
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #21956b;
+}
+
+.history-transaction {
+    margin-top: 32px;
+    margin-inline: 12px;
 }

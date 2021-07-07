@@ -5,7 +5,7 @@
 <link href="{{ asset('css/master.css') }}" rel="stylesheet"/>
 
 <div class="container">
-    <div class="card shadow">
+    <div class="card">
         <div class="card-body">
             <div class="row justify-content-center">
 

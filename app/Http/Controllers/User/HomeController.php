@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index()
     {
         $id = Auth::id();
-        $transaksi = Transaksi::where('id_user', $id)->get();
+        $transaksi = Transaksi::where('id_user', $id)->get()->reverse()->values();
         $poin_total = User::where('id', $id)->select('poin_total')->first();
         $name = User::find($id);
         // dd($transaksi);
